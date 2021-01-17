@@ -19,7 +19,7 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Blog"
 description: "Simple technical thoughts!"
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: "/blog"# the subpath of your site, e.g. "/blog"
 url: https://emerging-techs.github.io/blog/# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
