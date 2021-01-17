@@ -1,67 +1,5 @@
-# [So Simple Jekyll Theme][1]
+Thanks to Michael Rose for creating this amazing theme!
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square)](https://raw.githubusercontent.com/mmistakes/so-simple-theme/master/LICENSE)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg?style=flat-square)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/jekyll-theme-so-simple.svg?style=flat-square)](https://rubygems.org/gems/jekyll-theme-so-simple)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?style=flat-square&logo=paypal)](https://www.paypal.me/mmistakes)
-
-So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your words and pictures. Built to provide:
-
-* A variety of layouts with clean and readable typography.
-* [Microformats](http://microformats.org/wiki/microformats2) markup to make post content machine-readable and discoverable.
-* Disqus Comments and Google Analytics support.
-* SEO best practices via [Jekyll SEO Tag][jekyll-seo-tag].
-* Options to customize the theme and make it your own.
-
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/mmistakes) for developing and maintaining it.**
-
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
-
-:sparkles: **See what's new in the [CHANGELOG](CHANGELOG.md).**
-
-:blue_book: **[v2 documentation](README-OLD.md)**.
-
-[![So Simple live preview][2]][1]
-
-![So Simple layouts](screenshots.jpg)
-
-[1]: https://mmistakes.github.io/so-simple-theme/
-[2]: screenshot.png "site preview"
-
-## Sample Pages
-
-| Description |    |    |
-| ----------- | -- | -- |
-| A post with a large hero image. | [Preview][post-hero-preview] | [Source][post-hero-source] |
-| A post with a variety of common HTML elements showing how the theme styles them. | [Preview][post-html-elements-preview] | [Source][post-html-elements-source] |
-| Post displaying highlighted code. | [Preview][post-syntax-preview] | [Source][post-syntax-code] |
-| A post displaying images with a variety of alignments. | [Preview][post-image-alignment-preview] | [Source][post-image-alignment-source] |
-| All posts grouped by year. | [Preview][posts-year-preview] | [Source][posts-year-source] |
-| All posts grouped by category. | [Preview][posts-category-preview] | [Source][posts-category-source] |
-| All posts grouped by tag. | [Preview][posts-tag-preview] | [Source][posts-tag-source] |
-| Category page. | [Preview][category-page-preview] | [Source][category-page-source] |
-| Listing of documents in grid view. | [Preview][grid-view-preview] | [Source][grid-view-source] |
-
-[post-hero-preview]: https://mmistakes.github.io/so-simple-theme/layout/layout-hero-image/
-[post-hero-source]: docs/_posts/2012-03-14-layout-hero-image.md
-[post-html-elements-preview]: https://mmistakes.github.io/so-simple-theme/markup/markup-html-elements-and-formatting/
-[post-html-elements-source]: docs/_posts/2013-01-11-markup-html-elements-and-formatting.md
-[post-syntax-preview]: https://mmistakes.github.io/so-simple-theme/markup-syntax-highlighting/
-[post-syntax-code]: docs/_posts/2013-08-16-markup-syntax-highlighting.md
-[post-image-alignment-preview]: https://mmistakes.github.io/so-simple-theme/markup/markup-image-alignment/
-[post-image-alignment-source]: docs/_posts/2013-01-10-markup-image-alignment.md
-[posts-year-preview]: https://mmistakes.github.io/so-simple-theme/posts/
-[posts-year-source]: docs/posts.md
-[posts-category-preview]: https://mmistakes.github.io/so-simple-theme/categories/
-[posts-category-source]: docs/categories.md
-[posts-tag-preview]: https://mmistakes.github.io/so-simple-theme/tags/
-[posts-tag-source]: docs/tags.md
-[category-page-preview]: https://mmistakes.github.io/so-simple-theme/categories/edge-case/
-[category-page-source]: docs/edge-case.md
-[grid-view-preview]: https://mmistakes.github.io/so-simple-theme/recipes/
-[grid-view-source]: docs/recipes.md
-
-Additional [sample posts](https://mmistakes.github.io/so-simple-theme/posts/) can be view on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs) folder.
 
 ## Table of Contents
 
@@ -137,51 +75,6 @@ Additional [sample posts](https://mmistakes.github.io/so-simple-theme/posts/) ca
 17. [Credits](#credits)
 18. [License](#license)
 
-## Installation
-
-If you're running Jekyll v3.5+ and self-hosting you can quickly install the theme as a Ruby gem. If you're hosting with [**GitHub Pages**](https://pages.github.com/) you can install as a [remote theme](https://github.com/benbalter/jekyll-remote-theme) or directly copy all of the theme files (see [structure](#structure) below) into your project.
-
-### Ruby Gem Method
-
-1. Add this line to your Jekyll site's `Gemfile` (or [create one](example/Gemfile)):
-
-   ```ruby
-   gem "jekyll-theme-so-simple"
-   ```
-
-2. Add this line to your Jekyll site's `_config.yml` file:
-
-   ```yaml
-   theme: jekyll-theme-so-simple
-   ```
-
-3. Then run [Bundler](http://bundler.io/) to install the theme gem and dependencies:
-
-   ```terminal
-   bundle install
-   ```
-
-### GitHub Pages Method
-
-GitHub Pages has added [full support](https://github.com/blog/2464-use-any-theme-with-github-pages) for any GitHub-hosted theme.
-
-1. Replace `gem "jekyll"` with:
-
-   ```ruby
-   gem "github-pages", group: :jekyll_plugins
-   ```
-
-2. Run `bundle update` and verify that all gems install properly.
-
-3. Add `remote_theme: "mmistakes/so-simple-theme@3.2.0"` to your
-   `_config.yml` file. Remove any other `theme:` or `remote_theme:` entries.
-
----
-
-**Note:** Your Jekyll site should be viewable immediately at <http://USERNAME.github.io>. If it's not, you can force a rebuild by pushing empty commits to GitHub (see below for more details).
-
-If you're hosting several Jekyll based sites under the same GitHub username you will have to use Project Pages instead of User Pages. Essentially you rename the repo to something other than **USERNAME.github.io** and create a `gh-pages` branch off of `master`. For more details on how this works, check [GitHub's documentation](https://help.github.com/articles/user-organization-and-project-pages/).
-
 #### Remove the Unnecessary
 
 If you forked or downloaded the [`so-simple-theme` repo](https://github.com/mmistakes/so-simple-theme) you can safely remove the following files and folders:
@@ -201,26 +94,7 @@ If you forked or downloaded the [`so-simple-theme` repo](https://github.com/mmis
 * `README-OLD.md`
 * `screenshot.png`
 
-## Upgrading
 
-If you're using the Ruby Gem or remote theme versions of So Simple, upgrading is fairly painless.
-
-To check which version you are currently using, view the source of your built site and you should something similar to:
-
-```
-<!--
-    So Simple Jekyll Theme 3.0.0
-    Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
-    Free for personal and commercial use under the MIT license
-    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
--->
-```
-
-This will be at the top of every `.html` file, `/assets/css/main.css`, and `/assets/js/main.js`.
-
-### Ruby Gem
-
-Simply run `bundle update` if you're using Bundler (have a `Gemfile`) or `gem update jekyll-theme-so-simple` if you're not.
 
 ### Remote Theme
 
