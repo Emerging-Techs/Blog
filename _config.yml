@@ -38,16 +38,16 @@ comments: true
 owner:
   name: Avadesh K
   avatar: michael-rose-photo.jpg
-  email: Avadesh@mademistakes.com
-  disqus-shortname: sosimpletheme
-  twitter: mmistakes
-  facebook: michaelrose
-  github: mmistakes
-  stackexchange:
+  email: Avadesh@emerging-techs.ca
+  disqus-shortname: technicalthoughts
+  twitter: k@avadesh
+  facebook: avadesh.kaushal
+  github: emerging-tecs.ca
+ # stackexchange:
   linkedin:
-  instagram: mmistakes
-  flickr:
-  tumblr: mademistakes
+ # instagram: 
+  #flickr:
+  #tumblr: mademistakes
   pinterest:
   weibo:
   google:
