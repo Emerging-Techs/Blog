@@ -40,11 +40,11 @@ owner:
   avatar: michael-rose-photo.jpg
   email: Avadesh@emerging-techs.ca
   disqus-shortname: technicalthoughts
-  twitter: k@avadesh
+ # twitter: k@avadesh
  # facebook: avadesh.kaushal
-  github: emerging-tecs.ca
+ # github: emerging-tecs.ca
  # stackexchange:
-  linkedin:
+  linkedin: avadesh.kaushal
  # instagram: 
   #flickr:
   #tumblr: mademistakes
