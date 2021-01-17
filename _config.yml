@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Avadesh K
+title: Emerging Techs
 locale: en_US
-description: That Technical guy!.
+description: The Technical Team!.
 logo: site-logo.png
 url: https://emerging-techs.github.io/Blog/
 
@@ -36,20 +36,20 @@ comments: true
 
 # Site owner
 owner:
-  name: Avadesh K
+  name: Rashi K
   avatar: michael-rose-photo.jpg
-  email: Avadesh@emerging-techs.ca
+  email: Admin@emerging-techs.ca
   disqus-shortname: technicalthoughts
- # twitter: k@avadesh
- # facebook: avadesh.kaushal
- # github: emerging-tecs.ca
+  twitter: @WeareEmergingtechs
+  facebook: Emerging-Techs
+  github: emerging-tecs.ca
  # stackexchange:
-  linkedin: avadesh.kaushal
+  linkedin: Emerging-Techs
  # instagram: 
   #flickr:
   #tumblr: mademistakes
-  pinterest:
-  weibo:
+  #pinterest:
+ # weibo:
   google:
     plus: MichaelRoseDesign
     analytics: UA-2011187-2
